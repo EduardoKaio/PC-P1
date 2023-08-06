@@ -1,0 +1,7 @@
+a = str(input('Digite o texto A: '))
+b = str(input('Digite o texto B: '))
+print(f'Texto A dividido em duas Partes: {a[:len(a)//2]} e {a[len(a)//2:]}')
+print(f'Texto B dividido em duas Partes: {b[:len(b)//2]} e {b[len(b)//2:]}')
+print(f'{a[:len(a)//2]} + {b[len(b)//2:]} = ', ((a[:len(a)//2])+(b[len(b)//2:])))
+print(f'{a[len(a)//2:]} + {b[:len(b)//2]} = ', ((a[len(a)//2:])+(b[:len(b)//2])))
+print(f'{a[0]} + {b[1]} + {a[len(a)-1]} + {b[len(b)-1]} = ', (a[0] + b[1] + a[len(a)-1] + b[len(b)-1]))

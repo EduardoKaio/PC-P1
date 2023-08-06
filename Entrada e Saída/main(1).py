@@ -1,0 +1,7 @@
+a = float(input('Digite o número A: '))
+b = float(input('Digite o número B: '))
+print(f'{a} + {b} = ', a+b)
+print(f'{a} - {b} = ', a-b)
+print(f'{a} / {b} = ', a/b)
+print(f'{int(a)} // {int(b)} = ', int(a/b))
+print(f'{int(a)} % {int(b)} = ', int(a%b))
